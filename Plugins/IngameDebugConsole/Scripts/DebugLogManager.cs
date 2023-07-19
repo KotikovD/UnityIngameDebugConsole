@@ -404,7 +404,7 @@ namespace IngameDebugConsole
 		private DebugLogLogcatListener logcatListener;
 #endif
 
-#if DEV || UNITY_EDITOR
+#if DEV
 		private bool _shouldStartUp = true;
 #else
 		private bool _shouldStartUp = false;
@@ -412,8 +412,11 @@ namespace IngameDebugConsole
 		
 		private void Awake()
 		{
-			if (!_shouldStartUp) 
+			if (!_shouldStartUp)
+			{
 				gameObject.SetActive(false);
+				return;
+			}
 
 			// Only one instance of debug console is allowed
 			if( !Instance )
