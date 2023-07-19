@@ -2,14 +2,6 @@
 
 <img height="235" src="Images/1.png" alt="screenshot" /> <img height="235" src="Images/2.png" alt="screenshot2" />
 
-**Available on Asset Store:** https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068
-
-**Forum Thread:** http://forum.unity3d.com/threads/in-game-debug-console-with-ugui-free.411323/
-
-**Discord:** https://discord.gg/UJJt549AaV
-
-**[GitHub Sponsors ☕](https://github.com/sponsors/yasirkula)**
-
 ## ABOUT
 
 This asset helps you see debug messages (logs, warnings, errors, exceptions) runtime in a build (also assertions in editor) and execute commands using its built-in console. It also supports logging *logcat* messages to the console on Android platform.
@@ -22,15 +14,12 @@ Console window is optimized using a customized recycled list view that calls *In
 
 ## INSTALLATION
 
-There are 5 ways to install this plugin:
+There are ways to install this plugin:
 
-- import [IngameDebugConsole.unitypackage](https://github.com/yasirkula/UnityIngameDebugConsole/releases) via *Assets-Import Package*
-- clone/[download](https://github.com/yasirkula/UnityIngameDebugConsole/archive/master.zip) this repository and move the *Plugins* folder to your Unity project's *Assets* folder
-- import it from [Asset Store](https://assetstore.unity.com/packages/tools/gui/in-game-debug-console-68068)
+- import [IngameDebugConsole.unitypackage](https://github.com/KotikovD/UnityIngameDebugConsole/releases) via *Assets-Import Package*
+- clone/[download](https://github.com/KotikovD/UnityIngameDebugConsole/archive/master.zip) this repository and move the *Plugins* folder to your Unity project's *Assets* folder
 - *(via Package Manager)* add the following line to *Packages/manifest.json*:
-  - `"com.yasirkula.ingamedebugconsole": "https://github.com/yasirkula/UnityIngameDebugConsole.git",`
-- *(via [OpenUPM](https://openupm.com))* after installing [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:
-  - `openupm add com.yasirkula.ingamedebugconsole`
+  - `"com.KotikovD.ingamedebugconsole": "https://github.com/KotikovD/UnityIngameDebugConsole.git",`
 
 ## FAQ
 
