@@ -397,14 +397,24 @@ namespace IngameDebugConsole
 
 #if UNITY_EDITOR
 		private bool isQuittingApplication;
+		
 #endif
 
 #if !UNITY_EDITOR && UNITY_ANDROID
 		private DebugLogLogcatListener logcatListener;
 #endif
 
+#if DEV || UNITY_EDITOR
+		private bool _shouldStartUp = true;
+#else
+		private bool _shouldStartUp = false;
+#endif
+		
 		private void Awake()
 		{
+			if (!_shouldStartUp) 
+				gameObject.SetActive(false);
+
 			// Only one instance of debug console is allowed
 			if( !Instance )
 			{
