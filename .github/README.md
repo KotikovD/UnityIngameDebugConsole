@@ -16,7 +16,6 @@ Console window is optimized using a customized recycled list view that calls *In
 
 There are ways to install this plugin:
 
-- import [IngameDebugConsole.unitypackage](https://github.com/KotikovD/UnityIngameDebugConsole/releases) via *Assets-Import Package*
 - clone/[download](https://github.com/KotikovD/UnityIngameDebugConsole/archive/master.zip) this repository and move the *Plugins* folder to your Unity project's *Assets* folder
 - *(via Package Manager)* add the following line to *Packages/manifest.json*:
   - `"com.KotikovD.ingamedebugconsole": "https://github.com/KotikovD/UnityIngameDebugConsole.git",`
