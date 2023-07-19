@@ -2585,9 +2585,9 @@ MonoBehaviour:
   newInfoCountText: {fileID: 11476740}
   newWarningCountText: {fileID: 11414436}
   newErrorCountText: {fileID: 11411602}
-  alertColorInfo: {r: 0.050980393, g: 0.32941177, b: 0.5647059, a: 1}
-  alertColorWarning: {r: 0.59607846, g: 0.45490196, b: 0, a: 1}
-  alertColorError: {r: 0.5647059, g: 0.050980393, b: 0.050980393, a: 1}
+  alertColorInfo: {r: 0.050980393, g: 0.32941177, b: 0.5647059, a: 0.78431374}
+  alertColorWarning: {r: 0.59607846, g: 0.45490196, b: 0, a: 0.78431374}
+  alertColorError: {r: 0.5647059, g: 0.050980393, b: 0.050980393, a: 0.78431374}
 --- !u!225 &22505754
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4526,7 +4526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 35.999977, y: -114}
+  m_AnchoredPosition: {x: 36, y: -114}
   m_SizeDelta: {x: 62, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4130104307258076798
